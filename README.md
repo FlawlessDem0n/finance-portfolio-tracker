@@ -1,9 +1,9 @@
-# Finance Portfolio Tracker
+﻿# Finance Portfolio Tracker
 
 Interactive Streamlit app with Beginner & Advanced views. Uses free yfinance data.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)]()
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://finance-portfolio-tracker.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <p align="center">
@@ -11,7 +11,7 @@ Interactive Streamlit app with Beginner & Advanced views. Uses free yfinance dat
   <img src="docs/weights.png" width="30%" />
 </p>
 
-## 🚀 Quickstart
+## ðŸš€ Quickstart
 
 ```bash
 pip install -r requirements.txt
@@ -20,15 +20,15 @@ streamlit run app.py
 
 ---
 
-## 🌱 Beginner Mode
+## ðŸŒ± Beginner Mode
 
 - **Portfolio Health Score** (diversification, ups & downs, market sensitivity)
 - Donut charts (holdings & sectors)
 - 1-day winners/losers heat table
-- Goals & “what-if I invest more” slider
+- Goals & â€œwhat-if I invest moreâ€ slider
 - Plain-English explanations of risk metrics
 
-## 🧠 Advanced Mode
+## ðŸ§  Advanced Mode
 
 - **Return per unit of risk (Sharpe)**  
 - **Moves vs market (Beta)**  
@@ -38,7 +38,7 @@ streamlit run app.py
 
 ---
 
-## 🖼️ Screenshots
+## ðŸ–¼ï¸ Screenshots
 
 <p align="center">
   <img src="docs/screenshot1.png" width="800" /><br/>
@@ -47,7 +47,7 @@ streamlit run app.py
 </p>
 
 
-## 📊 Example Inputs
+## ðŸ“Š Example Inputs
 
 Copy & paste into the app sidebar:
 
@@ -57,7 +57,7 @@ Copy & paste into the app sidebar:
 
 ---
 
-## 🖼️ Demo
+## ðŸ–¼ï¸ Demo
 
 <p align="center">
   <img src="docs/demo.gif" width="800">
@@ -65,44 +65,44 @@ Copy & paste into the app sidebar:
 
 ---
 
-## 📂 Project Structure
+## ðŸ“‚ Project Structure
 
 ```
 finance-portfolio-tracker/
-├─ app.py                 # Streamlit app (Beginner + Advanced modes)
-├─ portfolio_tracker.py   # CLI script (prints stats + saves charts)
-├─ requirements.txt       # Dependencies
-├─ README.md              # Project docs (this file)
-├─ LICENSE                # MIT License
-├─ docs/                  # Screenshots, demo gif
-└─ examples/              # Sample portfolio inputs
+â”œâ”€ app.py                 # Streamlit app (Beginner + Advanced modes)
+â”œâ”€ portfolio_tracker.py   # CLI script (prints stats + saves charts)
+â”œâ”€ requirements.txt       # Dependencies
+â”œâ”€ README.md              # Project docs (this file)
+â”œâ”€ LICENSE                # MIT License
+â”œâ”€ docs/                  # Screenshots, demo gif
+â””â”€ examples/              # Sample portfolio inputs
 ```
 
 ---
 
-## 🔧 Tech Stack
+## ðŸ”§ Tech Stack
 
-- [Streamlit](https://streamlit.io/) — interactive dashboards
-- [yfinance](https://pypi.org/project/yfinance/) — free financial data
-- [pandas](https://pandas.pydata.org/) & [numpy](https://numpy.org/) — data wrangling
-- [matplotlib](https://matplotlib.org/) — charts
-
----
-
-## 📜 License
-
-MIT — see [LICENSE](LICENSE).
+- [Streamlit](https://streamlit.io/) â€” interactive dashboards
+- [yfinance](https://pypi.org/project/yfinance/) â€” free financial data
+- [pandas](https://pandas.pydata.org/) & [numpy](https://numpy.org/) â€” data wrangling
+- [matplotlib](https://matplotlib.org/) â€” charts
 
 ---
 
-## 🤝 Contributing
+## ðŸ“œ License
+
+MIT â€” see [LICENSE](LICENSE).
+
+---
+
+## ðŸ¤ Contributing
 
 Pull requests welcome! Please open an issue first for discussion.  
 For major changes, fork the repo and create a feature branch.
 
 ---
 
-## ⭐ Acknowledgements
+## â­ Acknowledgements
 
 - Yahoo Finance data (via yfinance)
 - Streamlit Community Cloud for free deployment
